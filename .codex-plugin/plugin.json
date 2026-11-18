@@ -1,0 +1,44 @@
+{
+  "name": "trellis",
+  "version": "1.0.0",
+  "description": "Keep the guidance agents need close to the work they do.",
+  "author": {
+    "name": "Vamsi Alluri",
+    "email": "vamsi.a@methodologies.xyz"
+  },
+  "homepage": "https://github.com/methodologies/trellis",
+  "repository": "https://github.com/methodologies/trellis",
+  "license": "CC0-1.0",
+  "keywords": [
+    "agent-skills",
+    "knowledge-work",
+    "handbooks",
+    "practices",
+    "checks",
+    "playbooks"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Trellis",
+    "shortDescription": "Give agents clear standards for doing and reviewing work.",
+    "longDescription": "Trellis keeps how your work is done and checked in a handbook beside the work, so the next person or agent can pick it up. Shape Handbook writes down the Practices, Checks and requested Playbooks you ask for, asks about the decisions only you can make, and can review a handbook without changing it. Each handbook's README explains its use without Trellis installed. Learn From Work looks at the work you select, asks about missing context when it would change a lesson, and proposes improvements for you to choose. Handbook edits stay inside the selected handbook; review-only requests and learning change no files. You and your agents carry out the work itself, under your tasks' own permissions.",
+    "developerName": "Vamsi Alluri",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/methodologies/trellis",
+    "privacyPolicyURL": "https://github.com/methodologies/trellis/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/methodologies/trellis/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Write down how we do this work, so the next person can pick it up.",
+      "Review our handbook for confusing or conflicting advice, without changing it.",
+      "What should we learn from this work? Suggest handbook changes for me to choose."
+    ],
+    "brandColor": "#4E7D3A",
+    "composerIcon": "./assets/trellis-icon.svg",
+    "logo": "./assets/trellis-logo.svg",
+    "logoDark": "./assets/trellis-logo-dark.svg"
+  }
+}

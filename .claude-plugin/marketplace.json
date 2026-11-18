@@ -1,0 +1,17 @@
+{
+  "name": "trellis",
+  "owner": {
+    "name": "Vamsi Alluri",
+    "email": "vamsi.a@methodologies.xyz",
+    "url": "https://github.com/methodologies"
+  },
+  "description": "Install Trellis with Shape Handbook and Learn From Work.",
+  "plugins": [
+    {
+      "name": "trellis",
+      "source": "./",
+      "description": "Keep the guidance agents need close to the work they do.",
+      "category": "productivity"
+    }
+  ]
+}
